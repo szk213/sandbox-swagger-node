@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create": "swagger project create",
+    "start": "swagger project start"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/szk213/sandbox-swagger-node/issues"
   },
-  "homepage": "https://github.com/szk213/sandbox-swagger-node#readme"
+  "homepage": "https://github.com/szk213/sandbox-swagger-node#readme",
+  "devDependencies": {
+    "swagger": "^0.7.5"
+  }
 }
